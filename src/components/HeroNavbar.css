@@ -1,0 +1,37 @@
+#btn_search {
+  border: none;
+  background: none;
+}
+
+.arrow_down {
+  color: #fff;
+  margin-left: -0.5rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 200px) {
+  .arrow_down {
+    margin-left: 0.1rem;
+    margin-right: 0rem;
+  }
+}
+
+.show_arrow_down:hover + .arrow_down {
+  display: block;
+  color: #000;
+}
+
+#nav_link {
+  color: #000;
+}
+
+#btn_menu {
+  border: none;
+  background: none;
+}
+
+#search_box {
+  height: 1.5rem;
+  width: 7rem;
+  margin-right: -3rem;
+}

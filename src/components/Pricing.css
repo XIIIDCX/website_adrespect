@@ -1,0 +1,101 @@
+li {
+  display: list-item;
+  list-style-image: url('../assets/chceked.svg');
+  padding-inline-start: 1ch;  
+}
+
+hr {
+  margin-left: -1rem;
+}
+
+.card-price{
+  font-weight: 700;
+}
+
+#card_btn {
+  background-color: #EF7925;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+#pricing {
+  color:#EF7925
+}
+
+#pricing_main_txt {
+  font-weight: 700;
+}
+
+#btn_txt {
+  color: #000;
+  font-weight: 400;
+}
+
+.card:hover {
+  background-color:rgba(231, 225, 225, 0.567);
+  border-radius: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 260px;
+  height: 50px;
+  z-index: 1;   
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+  box-shadow: 0 0 1px #000  
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 45px;
+  width: 110px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: #EF7925;
+  z-index: -1;  
+}
+
+input:checked + .slider {
+  background-color:#fff; 
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ccc; 
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(100px);
+  transform: translateX(145px);  
+}
+
+.slider.round {
+  border-radius: 50px;
+}
+
+.slider.round:before {
+  border-radius: 25px;  
+}

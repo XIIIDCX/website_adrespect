@@ -1,0 +1,17 @@
+#hero_btn {
+  background-color: #EF7925;
+  color: #fff;
+  border: none;
+}
+
+#hero_btn_arrow {
+  border: none;
+  color: #EF7925
+}
+
+#hero_btn_arrow:hover {
+  background-color: #EF7925;
+  color: #fff;
+}
+
+

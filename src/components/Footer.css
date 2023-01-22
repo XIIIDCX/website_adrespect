@@ -1,0 +1,32 @@
+
+#footer {
+  background-color: #000;
+  height: 20rem;
+}
+
+#nav_link_footer {
+  color: #fff !important;
+}
+
+.arrow_down_footer {
+  color: #000;
+  margin-left: 0.1rem;
+  margin-right: 0rem;
+}
+
+.show_arrow_down:hover + .arrow_down_footer {
+  display: block;
+  color: white;
+}
+
+#footer_txt {
+  color: #fff;
+  position: absolute;
+  top: 15rem;
+  left: 7%;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
